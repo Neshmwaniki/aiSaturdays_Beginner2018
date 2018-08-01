@@ -7,3 +7,9 @@ while (count < 11):
     count += 1
     
 ourList
+
+for i in ourList:
+    if i>4:
+        continue
+    belowFive.append(i)
+print(belowFive)
